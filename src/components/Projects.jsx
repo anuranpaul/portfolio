@@ -24,14 +24,14 @@ const Projects = () => {
       ],
       github: "https://github.com/anuranpaul/ZipGroceries",
     },
-    {
-      title: "Real-time Chat Backend",
-      description:
-        "Backend for a real-time chat application with support for private messaging, group chats, and notifications.",
-      technologies: ["Socket.io", "Redis", "Express", "MongoDB"],
-      github: "https://github.com/username/chat-backend",
-      demo: "https://chat.example.com",
-    },
+    // {
+    //   title: "Real-time Chat Backend",
+    //   description:
+    //     "Backend for a real-time chat application with support for private messaging, group chats, and notifications.",
+    //   technologies: ["Socket.io", "Redis", "Express", "MongoDB"],
+    //   github: "https://github.com/username/chat-backend",
+    //   demo: "https://chat.example.com",
+    // },
     {
       title: "Moodboard",
       description:
@@ -56,14 +56,14 @@ const Projects = () => {
       github: "https://github.com/anuranpaul/QuizMe",
       demo: "https://quizme-fire.vercel.app/",
     },
-    {
-      title: "Data Processing Pipeline",
-      description:
-        "ETL pipeline for processing and analyzing large datasets with scheduling and monitoring capabilities.",
-      technologies: ["Python", "Apache Airflow", "PostgreSQL", "Pandas"],
-      github: "https://github.com/username/data-pipeline",
-      demo: "https://data-demo.example.com",
-    },
+    // {
+    //   title: "Data Processing Pipeline",
+    //   description:
+    //     "ETL pipeline for processing and analyzing large datasets with scheduling and monitoring capabilities.",
+    //   technologies: ["Python", "Apache Airflow", "PostgreSQL", "Pandas"],
+    //   github: "https://github.com/username/data-pipeline",
+    //   demo: "https://data-demo.example.com",
+    // },
   ];
 
   return (

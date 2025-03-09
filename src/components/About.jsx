@@ -1,3 +1,5 @@
+import profile from '../assets/profile.svg';
+
 const About = () => {
   // List of skills/technologies
   const skills = [
@@ -43,9 +45,9 @@ const About = () => {
               ))}
             </div>
           </div>
-          <div className="profile-img">
-            <img src="/api/placeholder/300/300" alt="Profile" />
-          </div>
+          {/* <div className="profile-img">
+            <img src={profile} alt="Profile" />
+          </div> */}
         </div>
       </div>
 
