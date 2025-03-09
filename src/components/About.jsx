@@ -1,5 +1,3 @@
-import profile from '../assets/profile.svg';
-
 const About = () => {
   // List of skills/technologies
   const skills = [
