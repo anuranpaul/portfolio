@@ -11,6 +11,9 @@ permissions:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    environment: github-pages
+    env:
+      VITE_RESUME_URL: ${{ secrets.VITE_RESUME_URL }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
