@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://anuranpaul.github.io/portfolio",
+  "homepage": "https://anuranpaul.github.io/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
